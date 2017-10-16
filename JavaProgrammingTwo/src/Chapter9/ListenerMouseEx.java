@@ -5,6 +5,8 @@ import java.awt.event.*;
 import java.awt.*;
 
 public class ListenerMouseEx extends JFrame {
+	private static final long serialVersionUID = 1L;
+
 	ListenerMouseEx() {
 		setTitle("버튺에 Mouse 이벤트 리스너 작성");
 		setLayout(new FlowLayout());
