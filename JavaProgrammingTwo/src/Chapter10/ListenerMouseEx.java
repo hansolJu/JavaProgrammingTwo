@@ -1,4 +1,4 @@
-package Chapter9;
+package Chapter10;
 
 import javax.swing.*;
 import java.awt.event.*;

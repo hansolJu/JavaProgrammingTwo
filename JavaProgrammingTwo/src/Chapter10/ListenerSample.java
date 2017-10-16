@@ -1,4 +1,4 @@
-package Chapter9;
+package Chapter10;
 
 import javax.swing.*; 
 import java.awt.event.*; 
@@ -11,7 +11,7 @@ public class ListenerSample extends JFrame {  ListenerSample () {
 
 	JButton btn = new JButton("Action");
 	MyActionListener listener = new MyActionListener ();
-	btn.addActionListener(listener );
+	btn.addActionListener(listener);
 	add(btn);   
 	setSize(300,150);   
 	setVisible(true);  
