@@ -56,7 +56,7 @@ public class SwingAPIEx extends JFrame {
 				System.out.println("위치 = (" + b1.getX() + "," + b1.getY() + ")");
 				System.out.println("크기 = (" + b1.getWidth() + "x" + b1.getHeight() + ")");
 				
-				JPanel c = (JPanel) b2.getParent();
+				JPanel c = (JPanel) b1.getParent();
 				System.out.println("컨텎트팬의 위치와 크기");
 				System.out.println("위치 = (" + c.getX() + "," + c.getY() + ")");
 				System.out.println("크기 = (" + c.getWidth() + "x" + c.getHeight() + ")");
