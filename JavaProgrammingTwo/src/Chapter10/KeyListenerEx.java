@@ -1,12 +1,6 @@
 package Chapter10;
 
-import java.awt.Color;
-import java.awt.event.KeyAdapter;
-import java.awt.event.KeyEvent;
-
-import javax.swing.JFrame;
-import javax.swing.JLabel;
-import javax.swing.JPanel;
+import javax.swing.*; import java.awt.event.*; import java.awt.*;
 
 public class KeyListenerEx extends JFrame {  
 	JPanel contentPane = new JPanel();  
@@ -20,9 +14,9 @@ KeyListenerEx() {
 	contentPane.addKeyListener(new MyKeyListener()); 
 
 	keyMessage = new JLabel [3];   
-	keyMessage[0] = new JLabel("  getKeyCode()  ");   
-	keyMessage[1] = new JLabel("  getKeyChar()  ");   
-	keyMessage[2] = new JLabel("  getKeyText()  "); 
+	keyMessage[0] = new JLabel(" getKeyCode() ");   
+	keyMessage[1] = new JLabel(" getKeyChar() ");   
+	keyMessage[2] = new JLabel(" getKeyText() "); 
 
 	for(int i=0; i<keyMessage.length; i++) {    
 		contentPane.add(keyMessage[i]);    
