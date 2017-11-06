@@ -6,6 +6,8 @@ import javax.swing.JMenuBar;
 import javax.swing.JMenuItem;
 
 public class MenuEx extends JFrame {
+	private static final long serialVersionUID = 1L;
+
 	MenuEx() {
 		setTitle("Menu 만들기  예제");
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
